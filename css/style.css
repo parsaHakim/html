@@ -1,0 +1,157 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face{
+	font-family:'lalezar';
+	src:url('../fonts/lalezar.woff') format('woff'),
+		url('../fonts/lalezar.ttf') format('truetype');	
+}
+@font-face{
+	font-family'Byekan';
+	src:url('../fonts/Byekan.ttf') format('true type'),
+		url('../fonts/Byekan.woff') format('woff');
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+	font-family: Byekan;
+}
+.header{
+	height: 650px;
+	background-image: url('../image/keybord.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: wheat;
+	padding-top: 35px;
+}
+.header .ph{
+	list-style-type: none;
+	text-align: center
+}
+.header .ph .list{
+	display: inline-block;
+	padding: 15px;
+	font-family: lalezar;
+	
+}
+.header .ph .list:hover{
+	background-color: orange;
+	color: black;
+}
+.titel{
+	font-size: 60px;
+	font-family: lalezar;
+	margin-top: 90px;
+	text-align: center;
+}
+span{
+	color: orange;
+	
+}
+.foot{
+	font-family: lalezar;
+	margin: auto;
+	width: 330px;
+	height: 40px;
+	line-height: 40px;
+	background-color: rgba(0,0,0,.5);
+	border-radius: 20px;
+	border: 1px solid white;
+	margin-top: 30px;
+}
+.members{
+	text-align: center;
+	padding: 50px 30px;
+	
+}
+.david{
+	list-style-type: none;
+	margin-top: 25px
+}
+.mood{
+	width: 350px;
+	display: inline-block;
+	margin: 10px;
+	box-shadow: 0 0 15px #bbbbbb;
+}
+.pic{
+	width: 100%;
+}
+.id{
+	padding: 20px;
+	text-align: justify;
+	font-family:lalezar;
+}
+.world{
+	font-size: 25px;
+	margin-top: 5px;
+	
+}
+.about{
+	height: 700px;
+	background-image: url('../image/Desktop.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 50px;
+	background-color: #373837;
+	background-blend-mode: multiply;
+}
+.circle{
+	width: 600px;
+	height: 600px;
+	margin: auto;
+	border-radius: 50%;
+	text-align: center;
+	padding: 100px 120px;
+	background-color: rgba(135,135,135,.3);
+	color: white;
+	font-family:lalezar;
+}
+p{
+	margin-top: 40px;
+	text-align: justify;
+}
+h2{
+	font-size: 35px;
+}
+.footer{
+	text-align: center;
+	height: auto;
+	background-color:darkgray;
+    padding: 10px;
+	padding-top: 50px;
+	
+}
+.back{
+	width:auto;
+	height: 50px;
+	background-color:gray;
+	
+}
+.last{
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	
+}
+h4{
+	
+	padding-top: 20px
+}
+a{
+	text-decoration: none;
+	color: white;
+	
+}
+a:hover{
+	color: black;
+}
+.back{
+	font-size: 40px;
+}
+.mood:hover{
+	width: 300px;
+}
